@@ -1,0 +1,19 @@
+{
+  "name": "simple-konfig",
+  "version": "1.0.4",
+  "description": "Simple configuration implementation for Typescript.",
+  "types": "lib/index.d.ts",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "Kye Purkis",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
+}
