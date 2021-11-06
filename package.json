@@ -1,13 +1,17 @@
 {
   "name": "simple-konfig",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple configuration implementation for Typescript.",
   "types": "lib/index.d.ts",
   "main": "lib/index.js",
   "scripts": {
     "build": "npx tsc"
   },
-  "keywords": [],
+  "homepage":"https://github.com/kye44/simple-konfig",
+  "bugs": {
+    "url": "https://github.com/kye44/simple-konfig/issues"
+  },
+  "keywords": ["Config", "Typescript", ".env", "Environment", "JSON", "Decorators"],
   "author": "Kye Purkis",
   "license": "ISC",
   "devDependencies": {
