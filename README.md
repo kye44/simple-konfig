@@ -62,3 +62,5 @@ Now the loaded configuration can be accessed by using `getConfig`.
 var marketConfig = config.getConfig(MarketConfig);
 var mongoConfig = config.getConfig(MongoConfig);
 ```
+
+`NOTE: When providing a path to configuration files, the directory containing package.json is the root.`
